@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  //with this we say that 1rem = 10px, so when we make the responsiveness of the app we just change this value and that will affect all the styles without unnecessary media queries
+  font-size: 62.5% !important;
+  scroll-behavior: smooth;
+  // font-family: ;
+}

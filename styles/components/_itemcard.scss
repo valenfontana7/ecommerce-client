@@ -1,0 +1,12 @@
+.item-card {
+  width: 12rem;
+  height: 15rem;
+  border: 1px solid black;
+  margin-top: 5%;
+  &-img {
+    margin: 10% auto auto auto;
+    width: 75%;
+    height: 60%;
+    border: 1px solid black;
+  }
+}
